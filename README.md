@@ -17,4 +17,4 @@ Then go to the endpoint http://localhost:8000/careers/ to start querying the res
 To get all careers, send a get request to http://localhost:8000/careers/
 
 
-To get a specific career, make a get request to http://localhost:8000/careers/<id> where id is the number id of an existing career
+To get a specific career, make a get request to http://localhost:8000/careers/{id} where id is the number id of an existing career
