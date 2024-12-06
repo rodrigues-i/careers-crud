@@ -6,7 +6,7 @@ class CareerSerializer(serializers.ModelSerializer):
     class Meta:
         model = Career
         fields = ['id', 'username', 'created_datetime', 'title', 'content']
-        read_only_fields = ['id', 'created_datetime', 'username']  # Explicitly set read-only fields
+        read_only_fields = ['id', 'created_datetime']  # Explicitly set read-only fields
 
     def update(self, instance, validated_data):
         # Allowed fields for update
